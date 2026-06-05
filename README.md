@@ -6,22 +6,38 @@ The application uses a trained Random Forest Regression model to estimate housin
 The project demonstrates the complete machine learning workflow, including data preparation, model training, model serialization, and deployment using Streamlit.
 
 Features
+
 The model uses the following housing characteristics:
 
 CRIM	Per capita crime rate by town
+
 ZN	Proportion of residential land zoned for large lots
+
 INDUS	Proportion of non-retail business acres per town
+
 CHAS	Charles River dummy variable (1 if tract bounds river, 0 otherwise)
+
 NOX	Nitric oxides concentration
+
 RM	Average number of rooms per dwelling
+
 AGE	Proportion of owner-occupied units built before 1940
+
 DIS	Weighted distance to employment centers
+
 RAD	Accessibility to radial highways
+
 TAX	Property tax rate per $10,000
+
 PTRATIO	Pupil-teacher ratio by town
+
 B	Proportion of Black residents (dataset variable)
+
 LSTAT	Percentage of lower-status population
+
+
 How It Works
+
 Users enter housing and neighborhood characteristics through the Streamlit interface.
 The application collects the feature values.
 The trained Random Forest model processes the inputs.
