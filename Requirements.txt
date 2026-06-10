@@ -5,4 +5,4 @@ seaborn
 sklearn
 joblib
 streamlit
-
+scikit-learn
