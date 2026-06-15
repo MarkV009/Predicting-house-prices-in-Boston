@@ -61,8 +61,8 @@ Actual property values depend on numerous factors beyond those included in the d
 
 Author- Mark Malombe| Data scientist
 
-Developed as a machine learning portfolio project showcasing:
-Regression modeling
+Developed as a machine learning portfolio project to predict
+house prices in Boston using
 Random Forest algorithms
 Model deployment with Streamlit
 Interactive data-driven applications
