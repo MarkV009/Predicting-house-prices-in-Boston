@@ -1,6 +1,5 @@
 import streamlit as st
-!pip install joblib
-!pip3 install joblib
+%pip install joblib
 import joblib
 import numpy as np
 
