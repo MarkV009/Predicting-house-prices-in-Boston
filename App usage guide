@@ -1,0 +1,27 @@
+** How to use/test the model **
+I have not managed to host the model live on streamlit - I keep runing into an error I've not managed to fix yet. 
+However, the model runs on my local PC and I suggest you deploy and test it yourself.
+
+****
+I recommend using deepnote.
+1. Load the House_prediction_app.py and the random_forest_model.pkl files onto the files section on the deepnote interphase.
+2. Click on the .py file and wait for the app to load. 
+3. If you wish to view the app on a new tab, click on the open app button. I have attached a screenshot below 
+on how to do this process.
+
+The following is a snippet from the dataset used. You can use these to test the model.
+| crim    | rm    | dis    | tax | lstat |
+|---------|-------|--------|-----|-------|
+| 0.06905 | 7.147 | 6.0622 | 222 | 5.33  |
+| 0.02985 | 6.430 | 6.0622 | 222 | 5.21  |
+| 0.08829 | 6.012 | 5.5605 | 311 | 12.43 |
+| 0.14455 | 6.172 | 5.9505 | 311 | 19.15 |
+| 0.21124 | 5.631 | 6.0821 | 311 | 29.93 |
+| 0.17004 | 6.004 | 6.5921 | 311 | 17.10 |
+| 0.09378 | 5.889 | 5.4509 | 311 | 15.71 |
+| 0.62976 | 5.949 | 4.7075 | 307 | 8.26  |
+| 0.63796 | 6.096 | 4.4619 | 307 | 10.26 |
+| 0.62739 | 5.834 | 4.4986 | 307 | 8.47  |
+| 1.05393 | 5.935 | 4.4986 | 307 | 6.58  |
+| 0.78420 | 5.990 | 4.2579 | 307 | 14.67 |
+| 0.80271 | 5.456 | 3.7965 | 307 | 11.69 |
