@@ -6,7 +6,7 @@ import numpy as np
 model = joblib.load("random_forest_model.pkl")
 
 st.title("Boston Housing Price Prediction")
-st.write("Enter the housing features to predict median value (MEDV).")
+st.write("Enter the housing features to predict median value (MEDV) in $ 000's")
 
 # Input fields for all predictors
 crim = st.number_input("Per capita crime rate (crim)", min_value=0.0,  format="%.5f",
