@@ -1,11 +1,11 @@
-Boston Housing Price Prediction App
+**Boston Housing Price Prediction App**
 Overview
 
 This project is a machine learning web application built with Streamlit that predicts the median value of owner-occupied homes in Boston based on various housing and neighborhood characteristics.
 The application uses a trained Random Forest Regression model to estimate housing prices from user-provided property and location features.
 The project demonstrates the complete machine learning workflow, including data preparation, model training, model serialization, and deployment using Streamlit.
 
-Features
+**Features**
 
 The model uses the following housing characteristics:
 
@@ -38,11 +38,31 @@ LSTAT	Percentage of lower-status population
 
 **How It Works**
 
+**The app is deployed and running live on streamlit cloud. Use the following link to access it;**
+https://predicting-house-prices-in-boston-hymnj8wg7vcd4myhsab9ra.streamlit.app/
+
 Users enter housing and neighborhood characteristics through the Streamlit interface.
 The application collects the feature values.
 The trained Random Forest model processes the inputs.
 The model predicts the median home value (MEDV).
 The estimated property value is displayed instantly.
+
+**The following is a snippet from the dataset used. You can use these to test the model.**
+| crim    | rm    | dis    | tax | lstat |
+|---------|-------|--------|-----|-------|
+| 0.06905 | 7.147 | 6.0622 | 222 | 5.33  |
+| 0.02985 | 6.430 | 6.0622 | 222 | 5.21  |
+| 0.08829 | 6.012 | 5.5605 | 311 | 12.43 |
+| 0.14455 | 6.172 | 5.9505 | 311 | 19.15 |
+| 0.21124 | 5.631 | 6.0821 | 311 | 29.93 |
+| 0.17004 | 6.004 | 6.5921 | 311 | 17.10 |
+| 0.09378 | 5.889 | 5.4509 | 311 | 15.71 |
+| 0.62976 | 5.949 | 4.7075 | 307 | 8.26  |
+| 0.63796 | 6.096 | 4.4619 | 307 | 10.26 |
+| 0.62739 | 5.834 | 4.4986 | 307 | 8.47  |
+| 1.05393 | 5.935 | 4.4986 | 307 | 6.58  |
+| 0.78420 | 5.990 | 4.2579 | 307 | 14.67 |
+| 0.80271 | 5.456 | 3.7965 | 307 | 11.69 |
 
 
 Machine Learning Model
